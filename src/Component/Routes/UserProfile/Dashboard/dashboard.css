@@ -1,0 +1,47 @@
+.Dashboard img {
+    width         : 100%;
+    height        : auto;
+    vertical-align: middle;
+    border        : 0;
+}
+
+.Dashboard .box {
+    margin-bottom: 20px;
+}
+
+.Dashboard .Grey {
+    background-color: #EBEBEB;
+}
+
+.Dashboard .Green {
+    color: #00B238;
+}
+
+.Dashboard .image {
+    height: auto;
+    width : 50%;
+}
+
+.Dashboard .Purple {
+    color: #00DDC6;
+}
+
+.Dashboard .Radius50 {
+    border-radius: 50px;
+}
+
+@media screen and (max-width: 767px) {
+
+    /* Screen Less than 480 */
+    .Dashboard .Latest_News {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+    /* Screen smaller than 1200 */
+    .Dashboard .Sponsored {
+        display: none;
+    }
+}

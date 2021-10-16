@@ -1,0 +1,485 @@
+html,
+body,
+#root {
+  min-height : 100vh;
+  font-family: Montserrat;
+}
+
+* {
+  color: #4D4D4D
+}
+
+.maxWidth {
+  max-width: 1280px;
+  margin   : 0 auto;
+}
+
+button,
+input,
+textarea,
+select {
+  outline: none !important;
+}
+
+
+.ExtraBold {
+  font-weight: 800;
+}
+
+.Font14 {
+  font-size: 14px
+}
+
+.Font12 {
+  font-size: 12px
+}
+
+.Font20 {
+  font-size: 20px
+}
+
+.Font1v {
+  font-size: 1vw;
+}
+
+.Font2v,
+.F14-3w {
+  font-size: 14px;
+}
+
+.F1_2v {
+  font-size: .5vw;
+}
+
+.F15v-07v {
+  font-size: 1.5vw;
+}
+
+.Font1_5h {
+  font-size: 1.5vh
+}
+
+.fs-initial {
+  font-size: initial
+}
+
+.fs-xSmall {
+  font-size: x-small;
+}
+
+.text-grey {
+  color: #AFAFAF
+}
+
+.text-blue {
+  color: #00DDC6
+}
+
+.ls-3 {
+  letter-spacing: 3px
+}
+
+.w-35 {
+  width: 35%;
+}
+
+.lineHeight4 {
+  line-height: 4;
+}
+
+.Height85 {
+  height: 85vh;
+}
+
+/* Home */
+.Background {
+  background-image   : url(./Assets/img/HomeScreenBackground.png);
+  background-position: center;
+  background-size    : cover;
+  background-repeat  : no-repeat;
+  height             : 90vh;
+  min-width          : 90%;
+}
+
+.HalfScreen {
+  max-width: 40ch;
+}
+
+.Round {
+  border-radius: 1.25rem;
+}
+
+.R25 {
+  border-radius: 25px !important;
+}
+
+.RadioToButton {
+  list-style-type: none;
+}
+
+/* Register */
+
+.LineBackground {
+  background-image   : url(./Assets/img/LineBackground.svg);
+  background-position: center;
+  background-size    : 100%;
+  background-repeat  : no-repeat;
+  /* height             : 90vh; */
+  min-width          : 90%;
+}
+
+
+.customInput,
+.react-tel-input .form-control,
+.react-tel-input .flag-dropdown,
+select {
+  background-color: #F2F2F2;
+  border-radius   : 25px !important;
+  border          : 0px !important;
+  min-height      : 40px !important;
+}
+
+.react-tel-input .flag-dropdown,
+.Dark {
+  background-color: #C7C7C7 !important;
+}
+
+.react-tel-input .form-control {
+  background-color: #F2F2F2 !important;
+  line-height     : inherit !important;
+  width           : auto !important;
+}
+
+.RadioToButton label,
+.btn-grad {
+  /* background-color  : #AFAFAF; */
+  text-align        : center;
+  text-transform    : uppercase;
+  /* transition     : 0.5s; */
+  border-radius     : 25px;
+  font-weight       : 600;
+  padding           : 7px 25px;
+}
+
+.btn-grad {
+  color: white !important;
+}
+
+.RadioToButton input {
+  display: none;
+}
+
+.RadioToButton label {
+  border       : none;
+  border-radius: 25px;
+  width        : 100%;
+  color        : #4F4F4F;
+  font-weight  : 400;
+}
+
+.RadioToButton input:checked+label,
+.Checked+label,
+.btn-grad,
+.Gradient,
+.btn:focus {
+  background-image   : linear-gradient(to right, #00DDC6 0%, #00AEE1 51%, #00DDC6 100%);
+  /* width           : 100%; */
+  background-size    : 200% auto;
+}
+
+.RadioToButton input:checked+label {
+  color: white !important
+}
+
+.Gradient-05 {
+  background-image: linear-gradient(to right, rgb(0, 174, 225, 0.5), rgb(0, 221, 198, 0.5));
+}
+
+.GreyBack {
+  background-color: #ECECEC;
+}
+
+.bg-mercury {
+  background-color: #EBEBEB;
+}
+
+.bg-white-30 {
+  background-color: rgb(255, 255, 255, 0.30)
+}
+
+.bg-white-50 {
+  background-color: rgb(255, 255, 255, 0.50)
+}
+
+.full button {
+  width: 100%;
+}
+
+input:focus {
+  border: 0px;
+}
+
+/* Exchange */
+
+.formTable td {
+  padding: 0 12px;
+}
+
+.formTable .w-95 {
+  width: 95%
+}
+
+.Pencil {
+  background-image   : url(./Assets/img/Pencil.png);
+  background-position: 93%;
+  background-repeat  : no-repeat;
+  border-radius      : 25px;
+  background-color   : #ECECEC;
+}
+
+
+.Bg-Nobel {
+  background-color: #959595;
+}
+
+/* for scroll bar */
+.ScrollBar {
+  padding-right: 10px;
+  height       : 300px;
+  overflow-y   : auto;
+  overflow-x   : hidden;
+}
+
+.scroll {
+  height    : 75vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+  background   : #AFAFAF;
+  border-radius: 10px;
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+  background   : #FFFFFF;
+  border-radius: 10px;
+  height       : 20px;
+}
+
+.RadiusTop26 {
+  border-top-left-radius : 26px;
+  border-top-right-radius: 26px;
+}
+
+.RadiusBottom26 {
+  border-bottom-left-radius : 26px;
+  border-bottom-right-radius: 26px;
+  overflow                  : hidden;
+}
+
+.Navi.active {
+  background-color: #07BEDB;
+  opacity         : 1;
+}
+
+.Navi.active button {
+  background-image: linear-gradient(to Right, #00DDC6, #00AEE1);
+}
+
+.Buy-Btn {
+  border          : 0px;
+  background-image: linear-gradient(to Right, #00DDC6, #00B438);
+  border-radius   : 50px;
+  color           : white;
+}
+
+.Sell-Btn {
+  border          : 0px;
+  background-image: linear-gradient(to Right, #CE0023, #F5565C);
+  border-radius   : 50px;
+  color           : white;
+}
+
+.Green {
+  color: #00B438;
+}
+
+.Red {
+  color: #CE0023
+}
+
+.C-Table th,
+.C-Table td {
+  text-align: center !important;
+}
+
+.Cerulean {
+  color: #00AEE1
+}
+
+.txt-gallery {
+  color: #ECECEC
+}
+
+.txt-gry {
+  color: #959595
+}
+
+.dropdown-menu {
+  background-color: #ECECEC;
+  width           : 75%;
+  border-radius   : 25px;
+  padding         : 15px;
+  border          : 0px;
+  box-shadow      : 3px 3px 6px rgb(0, 0, 0, 0.30);
+}
+
+.resizeNone {
+  resize: none !important;
+}
+
+.w-35 {
+  width: 35% !important
+}
+
+.ant-upload-list {
+  display: none;
+}
+
+.button {
+  background: transparent;
+  outline   : none;
+  border    : none;
+}
+
+.PostImg {
+  height    : 400px !important;
+  object-fit: cover
+}
+
+.bg-Grey {
+  background-color: #AFAFAF;
+}
+
+.text-white::placeholder {
+  color: White;
+}
+
+.LightGrey {
+  background-color: #F2F2F2 !important;
+}
+
+.text-black {
+  color: Black;
+}
+
+.bg-LightRed {
+  background-color: #F0F0F0;
+}
+
+.center::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color     : white;
+  text-align: center;
+  opacity   : 1;
+  /* Firefox */
+}
+
+input[type="checkbox"].RoundChk {
+  display: none;
+}
+
+input[type="checkbox"].RoundChk+span:before {
+  width         : 12px;
+  height        : 12px;
+  border        : 1.5px solid #f0f0f0;
+  content       : "";
+  display       : inline-block;
+  margin        : 0 16px 0 0;
+  padding       : 0;
+  vertical-align: top;
+  border-radius : 50%;
+}
+
+input[type="checkbox"].RoundChk:checked+span:before {
+  background-image: linear-gradient(to Right, #00DDC6, #00AEE1);
+  box-shadow      : inset 0px 0px 0px 1px #fff;
+  color           : #333;
+  content         : "";
+  text-align      : center;
+  border-radius   : 50%;
+}
+
+input[type="checkbox"].RoundChk:focus+span::before {
+  outline: 0;
+}
+
+img.images {
+  vertical-align: -webkit-baseline-middle !important;
+}
+
+.lngTck:checked:after {
+  content  : '\2714';
+  font-size: 14px;
+  position : absolute;
+  top      : 0px;
+  left     : 3px;
+  color    : #99a1a7;
+}
+
+@media only screen and (min-width: 992px) {
+
+  /* for screen greater than 992px */
+  .F15v-07v {
+    font-size: 0.7vw;
+  }
+  
+}
+
+@media only screen and (max-width: 767px) {
+
+  /* for screen smaller than 767px */
+  .Font2v {
+    font-size: 2vw;
+  }
+
+  .F14-3w {
+    font-size: 3vw
+  }
+}
+
+.dark-mode {
+  filter: invert(1) hue-rotate(180deg)
+}
+
+.dark-mode img,
+.dark-mode .text-white,
+.dark-mode .Sell-Btn,
+.dark-mode .Buy-Btn {
+  filter: invert(1) hue-rotate(180deg)
+}
+
+.dark-mode .invert,
+.dark-mode .AntiInvert{
+  filter: invert(1) hue-rotate(180deg)
+}
+.dark-mode .btn-grad,
+.dark-mode .RadioToButton input:checked+label {
+  color: black !important;
+}
+
+
+ /* @media only screen and (min-width: 1050px) {
+  .LineBackground {
+  height             : 85vh;
+  }
+ } */

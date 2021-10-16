@@ -1,0 +1,53 @@
+.Width25ch {
+  width: 50ch;
+}
+
+.Red {
+  color: #BF272D;
+}
+
+.DarkGreen {
+  color: #39B34A;
+}
+
+.gradientGreen {
+  background-image: linear-gradient(to right, #00DDC6, #00B238);
+}
+
+.gradientRed {
+  background-image: linear-gradient(to right, #CC0023, #F5565C);
+}
+
+.fa-fw {
+  margin-right: -80px;
+  margin-left : -30px;
+  color       : rgb(141, 129, 129);
+}
+
+.TradingViewGraph article {
+  height: auto;
+  width : 100%;
+}
+
+.TradingViewGraph article div {
+  width: inherit !important;
+}
+
+.w-fitContent {
+  width: fit-content;
+}
+
+.chartjs-render-monitor {
+  height: 100% !important;
+  width : 100% !important;
+}
+
+@media screen and (max-width: 768px) {
+  .TradingViewGraph article div {
+    height: auto !important;
+  }
+
+  .TradingViewGraph article div div {
+    height: 100vw !important;
+  }
+}
